@@ -3,6 +3,12 @@
         <title>getLocus in frame</title>
     </head>
     <body>
-        <iframe allow="camera; microphone; fullscreen; display-capture" src="https://getlocus.io/space/office" style="height: 100%; width: 100%; border: 0px;"></iframe>
+        <iframe 
+            sandbox="allow-storage-access-by-user-activation
+                 allow-scripts
+                 allow-same-origin"
+            allow="camera; microphone; fullscreen; display-capture" 
+            src="https://getlocus.io/space/office" 
+            style="height: 100%; width: 100%; border: 0px;"></iframe>
     </body>
 </html>
